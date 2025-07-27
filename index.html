@@ -50,6 +50,237 @@
   <!-- Espaço principal para conteúdo (vazio, para você preencher depois) -->
   <main class="flex-grow container mx-auto p-6">
     <!-- Conteúdo será inserido aqui -->
+
+    <!-- Conteúdo encapsulado independente para o <main> -->
+
+<div id="projetoX-content" class="max-w-7xl mx-auto p-6 space-y-12 font-sans" >
+
+  <!-- Tailwind CSS CDN scoped para essa área -->
+  <link href="https://cdn.tailwindcss.com" rel="stylesheet" />
+
+  <style>
+    /* Estilos locais para não vazar */
+    #projetoX-content a {
+      color: #22c55e; /* verde tailwind */
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    #projetoX-content a:hover {
+      color: #16a34a;
+      text-decoration: underline;
+    }
+  </style>
+
+  <!-- Seção 1: Grid 3x2 matérias sci-fi -->
+  <section aria-label="Matérias de Ficção Científica" class="grid grid-cols-1 sm:grid-cols-3 gap-8">
+
+    <article class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col">
+
+      <div class="h-48 bg-gradient-to-tr from-indigo-700 to-purple-900 flex items-center justify-center text-white font-bold text-xl select-none">
+        Imagem Sci-Fi #1
+      </div>
+
+      <div class="p-4 flex-grow flex flex-col">
+
+        <h3 class="text-lg font-semibold mb-2">Viagem no Tempo: Paradoxo e Possibilidades</h3>
+
+        <p class="text-gray-700 flex-grow">Explore as teorias científicas e as complicações dos paradoxos temporais na ficção, de forma envolvente e atual.</p>
+
+        <a href="artigos/viagem-no-tempo.html" class="mt-4 self-start font-medium">Leia mais →</a>
+
+      </div>
+
+    </article>
+
+    <article class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col">
+
+      <div class="h-48 bg-gradient-to-tr from-cyan-700 to-blue-900 flex items-center justify-center text-white font-bold text-xl select-none">
+        Imagem Sci-Fi #2
+      </div>
+
+      <div class="p-4 flex-grow flex flex-col">
+
+        <h3 class="text-lg font-semibold mb-2">Robôs e Inteligência Artificial</h3>
+
+        <p class="text-gray-700 flex-grow">Como a IA está moldando o futuro da humanidade segundo a ficção científica clássica e contemporânea.</p>
+
+        <a href="artigos/ia-e-robos.html" class="mt-4 self-start font-medium">Leia mais →</a>
+
+      </div>
+
+    </article>
+
+    <article class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col">
+
+      <div class="h-48 bg-gradient-to-tr from-pink-700 to-red-900 flex items-center justify-center text-white font-bold text-xl select-none">
+        Imagem Sci-Fi #3
+      </div>
+
+      <div class="p-4 flex-grow flex flex-col">
+
+        <h3 class="text-lg font-semibold mb-2">Colonização Espacial: Desafios e Esperanças</h3>
+
+        <p class="text-gray-700 flex-grow">Descubra como a ficção científica antecipa os desafios para a humanidade se tornar uma espécie multiplanetária.</p>
+
+        <a href="artigos/colonizacao-espacial.html" class="mt-4 self-start font-medium">Leia mais →</a>
+
+      </div>
+
+    </article>
+
+    <article class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col">
+
+      <div class="h-48 bg-gradient-to-tr from-green-700 to-emerald-900 flex items-center justify-center text-white font-bold text-xl select-none">
+        Imagem Sci-Fi #4
+      </div>
+
+      <div class="p-4 flex-grow flex flex-col">
+
+        <h3 class="text-lg font-semibold mb-2">Realidade Virtual e Universos Paralelos</h3>
+
+        <p class="text-gray-700 flex-grow">Imersão e fuga: o impacto da realidade virtual e dos mundos paralelos na narrativa sci-fi.</p>
+
+        <a href="artigos/realidade-virtual.html" class="mt-4 self-start font-medium">Leia mais →</a>
+
+      </div>
+
+    </article>
+
+    <article class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col">
+
+      <div class="h-48 bg-gradient-to-tr from-yellow-700 to-orange-900 flex items-center justify-center text-white font-bold text-xl select-none">
+        Imagem Sci-Fi #5
+      </div>
+
+      <div class="p-4 flex-grow flex flex-col">
+
+        <h3 class="text-lg font-semibold mb-2">Energia e Tecnologias do Futuro</h3>
+
+        <p class="text-gray-700 flex-grow">Fontes alternativas e tecnologias inovadoras que alimentam universos futuristas e sustentáveis.</p>
+
+        <a href="artigos/energia-futuro.html" class="mt-4 self-start font-medium">Leia mais →</a>
+
+      </div>
+
+    </article>
+
+    <article class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col">
+
+      <div class="h-48 bg-gradient-to-tr from-gray-700 to-gray-900 flex items-center justify-center text-white font-bold text-xl select-none">
+        Imagem Sci-Fi #6
+      </div>
+
+      <div class="p-4 flex-grow flex flex-col">
+
+        <h3 class="text-lg font-semibold mb-2">Exploração de Buracos Negros</h3>
+
+        <p class="text-gray-700 flex-grow">Viagens além do horizonte: como a ficção científica retrata os mistérios dos buracos negros.</p>
+
+        <a href="artigos/buracos-negros.html" class="mt-4 self-start font-medium">Leia mais →</a>
+
+      </div>
+
+    </article>
+
+  </section>
+
+  <!-- Seção 2: Faixa propaganda full width -->
+  <section aria-label="Propaganda" class="bg-gradient-to-r from-purple-700 via-pink-600 to-red-600 rounded-lg text-white text-center py-12 px-6 select-none">
+
+    <h2 class="text-3xl font-extrabold mb-4">Conheça o Futuro Hoje!</h2>
+
+    <p class="max-w-xl mx-auto text-lg font-light mb-6">
+      Inscreva-se na nossa newsletter e receba conteúdos exclusivos, análises e curiosidades do universo da ficção científica direto no seu e-mail.
+    </p>
+
+    <button id="btnSubscribe" class="bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-8 rounded-md transition-colors">
+      Quero me inscrever
+    </button>
+
+  </section>
+
+  <!-- Seção 3: Sobre o site -->
+  <section aria-label="Sobre o ProjetoX" class="bg-gray-50 rounded-lg shadow-md p-8 text-gray-800">
+
+    <h2 class="text-2xl font-bold mb-4">Sobre o ProjetoX</h2>
+
+    <p class="leading-relaxed max-w-3xl">
+      ProjetoX é seu portal dedicado à ficção científica, onde exploramos teorias, histórias, e as maravilhas da imaginação científica. De viagens no tempo a tecnologias futuristas, aqui você encontra conteúdo atualizado e apaixonante para mentes curiosas.
+    </p>
+
+  </section>
+
+  <!-- Seção 4: Contato -->
+  <section aria-label="Contato ProjetoX" class="bg-white rounded-lg shadow-md p-8 max-w-3xl mx-auto">
+
+    <h2 class="text-2xl font-bold mb-6 text-center">Fale Conosco</h2>
+
+    <form id="contactForm" class="space-y-6" novalidate>
+
+      <div>
+        <label for="name" class="block text-gray-700 font-semibold mb-1">Nome</label>
+        <input type="text" id="name" name="name" required
+          class="w-full border border-gray-300 rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-green-500" />
+      </div>
+
+      <div>
+        <label for="email" class="block text-gray-700 font-semibold mb-1">Email</label>
+        <input type="email" id="email" name="email" required
+          class="w-full border border-gray-300 rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-green-500" />
+      </div>
+
+      <div>
+        <label for="message" class="block text-gray-700 font-semibold mb-1">Mensagem</label>
+        <textarea id="message" name="message" rows="4" required
+          class="w-full border border-gray-300 rounded-md p-3 resize-none focus:outline-none focus:ring-2 focus:ring-green-500"></textarea>
+      </div>
+
+      <button type="submit" class="bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-6 rounded-md w-full transition-colors">
+        Enviar Mensagem
+      </button>
+
+      <p id="formMessage" class="mt-4 text-center text-sm font-medium"></p>
+
+    </form>
+
+  </section>
+
+  <!-- JS interno para interação simples -->
+  <script>
+    // Botão da propaganda
+    document.getElementById('btnSubscribe').addEventListener('click', () => {
+      alert('Inscrição simulada! Obrigado por se interessar no ProjetoX.');
+    });
+
+    // Validação e envio do formulário contato (simulação)
+    const form = document.getElementById('contactForm');
+    const formMessage = document.getElementById('formMessage');
+
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+
+      // Simples validação extra só pra garantir
+      if (!form.name.value.trim() || !form.email.value.trim() || !form.message.value.trim()) {
+        formMessage.textContent = 'Por favor, preencha todos os campos.';
+        formMessage.style.color = 'red';
+        return;
+      }
+
+      // Simula envio
+      formMessage.textContent = 'Enviando...';
+      formMessage.style.color = 'gray';
+
+      setTimeout(() => {
+        formMessage.textContent = 'Mensagem enviada com sucesso! Entraremos em contato.';
+        formMessage.style.color = 'green';
+        form.reset();
+      }, 1500);
+    });
+  </script>
+
+      </div>
+
+    
   </main>
 
   <!-- Rodapé padrão -->
