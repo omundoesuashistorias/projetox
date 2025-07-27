@@ -1,0 +1,92 @@
+/* Importação das fontes elegantes + ficção científica via Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto:wght@400;700&display=swap');
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fontes aplicadas no body */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff; /* background do main */
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #4b1a1a; /* vinho escuro fosco */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Menu */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  font-weight: 500;
+  font-size: 1rem;
+  font-family: 'Orbitron', sans-serif; /* fonte ficção científica no menu */
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  user-select: none;
+}
+
+nav ul li a:hover {
+  color: #a3d977; /* verde suave no hover */
+}
+
+/* Link clicado - será controlado via JS adicionando classe "active" */
+nav ul li a.active {
+  color: #4caf50; /* verde claro marcado */
+}
+
+/* Main fica branco, texto padrão preto para leitura */
+main {
+  background-color: #fff;
+  color: #222;
+  flex-grow: 1;
+  font-size: 1rem;
+  padding: 2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Rodapé */
+footer {
+  background-color: #4b1a1a; /* vinho escuro fosco */
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.9rem;
+  color: #ccc;
+  user-select: none;
+}
+
+/* Ícones sociais - estilo básico para SVG vetores */
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.social-icons svg {
+  width: 24px;
+  height: 24px;
+  fill: #ccc;
+  transition: fill 0.3s ease;
+  cursor: pointer;
+}
+
+.social-icons svg:hover {
+  fill: #a3d977;
+  }
